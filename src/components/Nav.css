@@ -1,0 +1,18 @@
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+}
+
+header > nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+header > nav a.activo {
+  color: salmon;
+  border-bottom: 3px solid salmon;
+  padding-bottom: 5px;
+}

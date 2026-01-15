@@ -1,0 +1,44 @@
+footer {
+  background-color: #333;
+  color: #ffffff;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+footer nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+footer nav a.activo {
+  color: #f39c12;
+  border-bottom: 2px solid #f39c12;
+}
+
+footer section {
+  display: flex;
+  justify-content: center;
+}
+
+footer section img {
+  width: 150px;
+}
+
+footer p {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #555;
+  padding-top: 1rem;
+}
